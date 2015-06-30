@@ -1,0 +1,3 @@
+integrated temp sensor on teensy is +-2 C
+No onboard voltage reference, AREF pin or Vcc
+
