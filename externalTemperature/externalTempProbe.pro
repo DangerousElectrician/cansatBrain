@@ -1,10 +1,6 @@
-update=Tue 30 Jun 2015 05:58:39 PM CDT
+update=Wed 01 Jul 2015 06:34:15 PM CDT
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -27,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=/home/h/projects/kicad/libraries/Teensy-3.1;/home/h/projects/kicad/libraries/hlibrary;../../kicad/libraries/XBee;/home/h/projects/kicad/libraries/microSD;/home/h/projects/kicad/libraries/LS20031;/home/h/projects/kicad/libraries/TMP102;/home/h/projects/kicad/libraries/tps63031
+LibDir=/home/h/projects/aiaa/cansatBrain
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,15 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=teensy_3.1
-LibName31=cc2541
-LibName32=misc
-LibName33=MPU-9250
-LibName34=p8x32a-lqfp
-LibName35=/home/h/projects/kicad/libraries/XBee/xbee
-LibName36=/home/h/projects/kicad/libraries/corecode/mpl3115a2
-LibName37=microsd
-LibName38=ls20031
-LibName39=tmp102
-LibName40=tps63031
-LibName41=/home/h/projects/heli/cad/smartercopter-cache
+LibName30=cansatBrain-cache

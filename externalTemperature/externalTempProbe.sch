@@ -1,0 +1,230 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:cansatBrain-cache
+LIBS:externalTempProbe-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TMP102 U?
+U 1 1 558F18BC
+P 5600 3550
+F 0 "U?" H 5450 3900 60  0000 C CNN
+F 1 "TMP102" H 5550 3150 60  0000 C CNN
+F 2 "" H 5500 3250 60  0000 C CNN
+F 3 "" H 5500 3250 60  0000 C CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3350 4900 3350
+Wire Wire Line
+	4900 3450 5200 3450
+Wire Wire Line
+	5100 3900 5100 3800
+Wire Wire Line
+	5100 3800 5200 3800
+Wire Wire Line
+	5100 3600 5100 3700
+Text Label 4900 3350 0    60   ~ 0
+SDA
+Text Label 4900 3450 0    60   ~ 0
+SCL
+$Comp
+L VCCA #PWR?
+U 1 1 559462E8
+P 5100 3600
+F 0 "#PWR?" H 5100 3700 30  0001 C CNN
+F 1 "VCCA" H 5100 3700 30  0000 C CNN
+F 2 "" H 5100 3600 60  0000 C CNN
+F 3 "" H 5100 3600 60  0000 C CNN
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 559476F7
+P 5100 3900
+F 0 "#PWR?" H 5100 3900 40  0001 C CNN
+F 1 "GNDA" H 5100 3830 40  0000 C CNN
+F 2 "" H 5100 3900 60  0000 C CNN
+F 3 "" H 5100 3900 60  0000 C CNN
+	1    5100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5594C942
+P 4700 3900
+F 0 "C?" H 4700 4000 40  0000 L CNN
+F 1 "100nF" H 4706 3815 40  0000 L CNN
+F 2 "" H 4738 3750 30  0000 C CNN
+F 3 "" H 4700 3900 60  0000 C CNN
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 3700
+Connection ~ 4700 3700
+$Comp
+L GNDA #PWR?
+U 1 1 55959F33
+P 4700 4100
+F 0 "#PWR?" H 4700 4100 40  0001 C CNN
+F 1 "GNDA" H 4700 4030 40  0000 C CNN
+F 2 "" H 4700 4100 60  0000 C CNN
+F 3 "" H 4700 4100 60  0000 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3700 5200 3700
+NoConn ~ 6100 3500
+$Comp
+L CONN_01X04 P?
+U 1 1 5594B65C
+P 7950 3850
+F 0 "P?" H 7950 4100 50  0000 C CNN
+F 1 "CONN_01X04" V 8050 3850 50  0000 C CNN
+F 2 "" H 7950 3850 60  0000 C CNN
+F 3 "" H 7950 3850 60  0000 C CNN
+	1    7950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3700 7400 3700
+Wire Wire Line
+	7400 3700 7400 3600
+Wire Wire Line
+	7750 3800 7100 3800
+Wire Wire Line
+	7100 3800 7100 3900
+Wire Wire Line
+	7750 3900 7350 3900
+Wire Wire Line
+	7750 4000 7350 4000
+$Comp
+L VCCA #PWR?
+U 1 1 5594B802
+P 7400 3600
+F 0 "#PWR?" H 7400 3700 30  0001 C CNN
+F 1 "VCCA" H 7400 3700 30  0000 C CNN
+F 2 "" H 7400 3600 60  0000 C CNN
+F 3 "" H 7400 3600 60  0000 C CNN
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5594B819
+P 7100 3900
+F 0 "#PWR?" H 7100 3900 40  0001 C CNN
+F 1 "GNDA" H 7100 3830 40  0000 C CNN
+F 2 "" H 7100 3900 60  0000 C CNN
+F 3 "" H 7100 3900 60  0000 C CNN
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+Text Label 7350 3900 0    60   ~ 0
+SDA
+Text Label 7350 4000 0    60   ~ 0
+SCL
+$Comp
+L C C?
+U 1 1 55961C1D
+P 4450 3900
+F 0 "C?" H 4450 4000 40  0000 L CNN
+F 1 "1uF" H 4456 3815 40  0000 L CNN
+F 2 "" H 4488 3750 30  0000 C CNN
+F 3 "" H 4450 3900 60  0000 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55961C58
+P 4200 3900
+F 0 "C?" H 4200 4000 40  0000 L CNN
+F 1 "10uF" H 4206 3815 40  0000 L CNN
+F 2 "" H 4238 3750 30  0000 C CNN
+F 3 "" H 4200 3900 60  0000 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3700
+$Comp
+L GNDA #PWR?
+U 1 1 55961D3C
+P 4200 4100
+F 0 "#PWR?" H 4200 4100 40  0001 C CNN
+F 1 "GNDA" H 4200 4030 40  0000 C CNN
+F 2 "" H 4200 4100 60  0000 C CNN
+F 3 "" H 4200 4100 60  0000 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 55961D55
+P 4450 4100
+F 0 "#PWR?" H 4450 4100 40  0001 C CNN
+F 1 "GNDA" H 4450 4030 40  0000 C CNN
+F 2 "" H 4450 4100 60  0000 C CNN
+F 3 "" H 4450 4100 60  0000 C CNN
+	1    4450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 55961F67
+P 6150 3700
+F 0 "#PWR?" H 6150 3700 40  0001 C CNN
+F 1 "GNDA" H 6150 3630 40  0000 C CNN
+F 2 "" H 6150 3700 60  0000 C CNN
+F 3 "" H 6150 3700 60  0000 C CNN
+	1    6150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3700 6150 3600
+Wire Wire Line
+	6150 3600 6100 3600
+$EndSCHEMATC
