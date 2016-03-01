@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:cansatBrain-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -56,7 +57,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55860B07
 P 850 7500
 F 0 "#PWR?" H 850 7500 30  0001 C CNN
@@ -151,7 +152,7 @@ SDA
 Text Label 2700 5650 0    60   ~ 0
 SCL
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 5593D5CF
 P 2800 4450
 F 0 "R?" V 2880 4450 40  0000 C CNN
@@ -162,7 +163,7 @@ F 3 "" H 2800 4450 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 5593D624
 P 2800 4650
 F 0 "R?" V 2880 4650 40  0000 C CNN
@@ -177,7 +178,7 @@ XBEE_RX
 Text Label 3350 4450 0    60   ~ 0
 XBEE_TX
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 5593EE71
 P 2750 4150
 F 0 "R?" V 2830 4150 40  0000 C CNN
@@ -188,7 +189,7 @@ F 3 "" H 2750 4150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 5593EE77
 P 3100 4250
 F 0 "R?" V 3180 4250 40  0000 C CNN
@@ -275,7 +276,7 @@ $EndComp
 Wire Wire Line
 	7950 3450 7950 3350
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55947E65
 P 7550 3450
 F 0 "#PWR?" H 7550 3450 30  0001 C CNN
@@ -290,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3350 7950 3350
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55948C97
 P 5350 7300
 F 0 "#PWR?" H 5350 7300 30  0001 C CNN
@@ -349,7 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1200 2450 1250
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594DF95
 P 2450 1250
 F 0 "#PWR?" H 2450 1250 30  0001 C CNN
@@ -381,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1100 2900 1100
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55950062
 P 2350 1650
 F 0 "R?" V 2430 1650 40  0000 C CNN
@@ -392,7 +393,7 @@ F 3 "" H 2350 1650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55951A1D
 P 2650 1000
 F 0 "R?" V 2730 1000 40  0000 C CNN
@@ -416,7 +417,7 @@ Wire Wire Line
 	2100 1550 1900 1550
 Connection ~ 2100 1550
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 5595265B
 P 1650 1550
 F 0 "R?" V 1730 1550 40  0000 C CNN
@@ -486,7 +487,7 @@ Wire Wire Line
 	7500 1050 7700 1050
 Connection ~ 7500 950 
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5595A08F
 P 7500 1250
 F 0 "#PWR?" H 7500 1250 30  0001 C CNN
@@ -512,7 +513,7 @@ F 3 "" H 5250 6050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55962027
 P 4550 6050
 F 0 "R?" V 4630 6050 40  0000 C CNN
@@ -543,7 +544,7 @@ SDA
 Text Label 4350 3400 0    60   ~ 0
 SCL
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55967163
 P 4800 5750
 F 0 "R?" V 4880 5750 40  0000 C CNN
@@ -596,7 +597,7 @@ F 3 "" H 4600 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 55947C02
 P 5150 3950
 F 0 "#PWR?" H 5150 3950 40  0001 C CNN
@@ -607,7 +608,7 @@ F 3 "" H 5150 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5594830F
 P 6000 2200
 F 0 "#PWR?" H 6000 2200 40  0001 C CNN
@@ -627,7 +628,7 @@ F3 "REG_EN" I L 1300 3000 60
 F4 "BAT_SENSE" O R 2150 2900 60 
 $EndSheet
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5595C2F2
 P 6150 3300
 F 0 "C?" H 6150 3400 40  0000 L CNN
@@ -649,7 +650,7 @@ F 3 "" H 6650 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5595C2FE
 P 6400 3300
 F 0 "C?" H 6400 3400 40  0000 L CNN
@@ -660,7 +661,7 @@ F 3 "" H 6400 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5595C306
 P 6650 3500
 F 0 "#PWR?" H 6650 3500 40  0001 C CNN
@@ -671,7 +672,7 @@ F 3 "" H 6650 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5595C30C
 P 6400 3500
 F 0 "#PWR?" H 6400 3500 40  0001 C CNN
@@ -682,7 +683,7 @@ F 3 "" H 6400 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5595C312
 P 6150 3500
 F 0 "#PWR?" H 6150 3500 40  0001 C CNN
@@ -702,7 +703,7 @@ Wire Wire Line
 	6150 3100 6150 3050
 Connection ~ 6150 3050
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5595DCAA
 P 5850 3800
 F 0 "C?" H 5850 3900 40  0000 L CNN
@@ -715,7 +716,7 @@ $EndComp
 Wire Wire Line
 	5850 3600 5600 3600
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5595E48A
 P 5850 4050
 F 0 "#PWR?" H 5850 4050 40  0001 C CNN
@@ -750,7 +751,7 @@ F 3 "" H 5050 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5594C5A2
 P 4450 5000
 F 0 "#PWR?" H 4450 5000 40  0001 C CNN
@@ -809,7 +810,7 @@ Wire Wire Line
 Text Label 2750 5750 0    60   ~ 0
 BAT_SENSE
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5595C817
 P 4600 1550
 F 0 "#PWR?" H 4600 1550 40  0001 C CNN
@@ -836,7 +837,7 @@ NoConn ~ 5600 3400
 Wire Wire Line
 	5350 6300 6100 6300
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 559679F4
 P 5600 6550
 F 0 "C?" H 5600 6650 40  0000 L CNN
@@ -858,7 +859,7 @@ F 3 "" H 6100 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 55967A00
 P 5850 6550
 F 0 "C?" H 5850 6650 40  0000 L CNN
@@ -880,7 +881,7 @@ Wire Wire Line
 	5350 6250 5350 6350
 Connection ~ 5350 6300
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55967EFF
 P 5600 6750
 F 0 "#PWR?" H 5600 6750 30  0001 C CNN
@@ -891,7 +892,7 @@ F 3 "" H 5600 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55967F36
 P 5850 6750
 F 0 "#PWR?" H 5850 6750 30  0001 C CNN
@@ -902,7 +903,7 @@ F 3 "" H 5850 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55967F6D
 P 6100 6750
 F 0 "#PWR?" H 6100 6750 30  0001 C CNN
@@ -913,7 +914,7 @@ F 3 "" H 6100 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5596DE7F
 P 4650 2400
 F 0 "C?" H 4650 2500 40  0000 L CNN
@@ -924,7 +925,7 @@ F 3 "" H 4650 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5596E206
 P 4650 2600
 F 0 "#PWR?" H 4650 2600 40  0001 C CNN
@@ -939,7 +940,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 1800 3600 1900
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5596F8E8
 P 3600 2100
 F 0 "C?" H 3600 2200 40  0000 L CNN
@@ -950,7 +951,7 @@ F 3 "" H 3600 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5596F93A
 P 3600 2300
 F 0 "#PWR?" H 3600 2300 40  0001 C CNN
@@ -992,7 +993,7 @@ Wire Wire Line
 	6050 1700 5950 1700
 NoConn ~ 5950 1800
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5597096F
 P 6000 1950
 F 0 "#PWR?" H 6000 1950 40  0001 C CNN
@@ -1009,7 +1010,7 @@ Wire Wire Line
 NoConn ~ 5950 1300
 NoConn ~ 5950 1400
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 55970FAD
 P 4300 1150
 F 0 "#PWR?" H 4300 1150 40  0001 C CNN
@@ -1024,7 +1025,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1100 4750 1100
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5597608A
 P 3850 2350
 F 0 "C?" H 3850 2450 40  0000 L CNN
@@ -1046,7 +1047,7 @@ F 3 "" H 4350 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 55976096
 P 4100 2350
 F 0 "C?" H 4100 2450 40  0000 L CNN
@@ -1057,7 +1058,7 @@ F 3 "" H 4100 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 5597609C
 P 4350 2550
 F 0 "#PWR?" H 4350 2550 40  0001 C CNN
@@ -1068,7 +1069,7 @@ F 3 "" H 4350 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 559760A2
 P 4100 2550
 F 0 "#PWR?" H 4100 2550 40  0001 C CNN
@@ -1079,7 +1080,7 @@ F 3 "" H 4100 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 559760A8
 P 3850 2550
 F 0 "#PWR?" H 3850 2550 40  0001 C CNN
@@ -1118,7 +1119,7 @@ NoConn ~ 7700 1800
 NoConn ~ 7700 1700
 NoConn ~ 7700 1400
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5598A4C3
 P 700 4250
 F 0 "C?" H 700 4350 40  0000 L CNN
@@ -1129,7 +1130,7 @@ F 3 "" H 700 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5598A51D
 P 700 4450
 F 0 "#PWR?" H 700 4450 30  0001 C CNN
@@ -1141,7 +1142,7 @@ F 3 "" H 700 4450 60  0000 C CNN
 $EndComp
 Connection ~ 900  4050
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5598DC65
 P 6850 1350
 F 0 "#PWR?" H 6850 1350 30  0001 C CNN
@@ -1187,7 +1188,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4600 7450 4750
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 559A8264
 P 7450 4750
 F 0 "#PWR?" H 7450 4750 30  0001 C CNN

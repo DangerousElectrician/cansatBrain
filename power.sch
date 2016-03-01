@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:cansatBrain-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -78,9 +79,11 @@ F 3 "" H 2500 850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5594EE5F
 P 1000 1450
+AR Path="/5594EE5F" Ref="C?"  Part="1" 
+AR Path="/5594D180/5594EE5F" Ref="C?"  Part="1" 
 F 0 "C?" H 1000 1550 40  0000 L CNN
 F 1 "10 uF" H 1006 1365 40  0000 L CNN
 F 2 "" H 1038 1300 30  0000 C CNN
@@ -89,9 +92,11 @@ F 3 "" H 1000 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5594EE66
 P 3550 1450
+AR Path="/5594EE66" Ref="C?"  Part="1" 
+AR Path="/5594D180/5594EE66" Ref="C?"  Part="1" 
 F 0 "C?" H 3550 1550 40  0000 L CNN
 F 1 "10 uF" H 3556 1365 40  0000 L CNN
 F 2 "" H 3588 1300 30  0000 C CNN
@@ -100,9 +105,11 @@ F 3 "" H 3550 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5594EE6D
 P 1300 1550
+AR Path="/5594EE6D" Ref="C?"  Part="1" 
+AR Path="/5594D180/5594EE6D" Ref="C?"  Part="1" 
 F 0 "C?" H 1300 1650 40  0000 L CNN
 F 1 "0.1 uF" H 1306 1465 40  0000 L CNN
 F 2 "" H 1338 1400 30  0000 C CNN
@@ -111,7 +118,7 @@ F 3 "" H 1300 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594EE74
 P 1900 1750
 F 0 "#PWR?" H 1900 1750 30  0001 C CNN
@@ -122,7 +129,7 @@ F 3 "" H 1900 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594EE7A
 P 3150 1750
 F 0 "#PWR?" H 3150 1750 30  0001 C CNN
@@ -133,7 +140,7 @@ F 3 "" H 3150 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594EE80
 P 1300 1750
 F 0 "#PWR?" H 1300 1750 30  0001 C CNN
@@ -144,7 +151,7 @@ F 3 "" H 1300 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594EE86
 P 1000 1650
 F 0 "#PWR?" H 1000 1650 30  0001 C CNN
@@ -155,7 +162,7 @@ F 3 "" H 1000 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594EE8C
 P 3550 1650
 F 0 "#PWR?" H 3550 1650 30  0001 C CNN
@@ -177,9 +184,11 @@ F 3 "" H 3550 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-cansatBrain C?
 U 1 1 5594EE98
 P 3800 1450
+AR Path="/5594EE98" Ref="C?"  Part="1" 
+AR Path="/5594D180/5594EE98" Ref="C?"  Part="1" 
 F 0 "C?" H 3800 1550 40  0000 L CNN
 F 1 "10 uF" H 3806 1365 40  0000 L CNN
 F 2 "" H 3838 1300 30  0000 C CNN
@@ -188,7 +197,7 @@ F 3 "" H 3800 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 5594EE9F
 P 3800 1650
 F 0 "#PWR?" H 3800 1650 30  0001 C CNN
@@ -248,7 +257,7 @@ F 3 "" H 1250 4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 559507C6
 P 1250 4850
 F 0 "#PWR?" H 1250 4850 30  0001 C CNN
@@ -272,7 +281,7 @@ F 3 "" H 6800 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 559507D6
 P 6400 3300
 F 0 "R?" V 6480 3300 40  0000 C CNN
@@ -283,7 +292,7 @@ F 3 "" H 6400 3300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 559507DD
 P 6400 3550
 F 0 "#PWR?" H 6400 3550 30  0001 C CNN
@@ -294,7 +303,7 @@ F 3 "" H 6400 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 559507E3
 P 7400 3050
 F 0 "R?" V 7480 3050 40  0000 C CNN
@@ -307,7 +316,7 @@ $EndComp
 Text Label 7700 3050 0    60   ~ 0
 VIN
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 559507EB
 P 1750 4000
 F 0 "R?" V 1830 4000 40  0000 C CNN
@@ -342,7 +351,7 @@ F 3 "" H 1350 3750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55950802
 P 1750 4350
 F 0 "#PWR?" H 1750 4350 30  0001 C CNN
@@ -353,7 +362,7 @@ F 3 "" H 1750 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55950808
 P 1700 3500
 F 0 "R?" V 1780 3500 40  0000 C CNN
@@ -427,7 +436,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 1600 5900 1550
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-cansatBrain #PWR?
 U 1 1 55952BFE
 P 5900 1900
 F 0 "#PWR?" H 5900 1900 40  0001 C CNN
@@ -438,7 +447,7 @@ F 3 "" H 5900 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55952C04
 P 5300 1900
 F 0 "#PWR?" H 5300 1900 30  0001 C CNN
@@ -478,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4300 3650 4450
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55955BF0
 P 3650 4700
 F 0 "R?" V 3730 4700 40  0000 C CNN
@@ -489,7 +498,7 @@ F 3 "" H 3650 4700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-cansatBrain R?
 U 1 1 55955DFB
 P 3650 5300
 F 0 "R?" V 3730 5300 40  0000 C CNN
@@ -500,7 +509,7 @@ F 3 "" H 3650 5300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-cansatBrain #PWR?
 U 1 1 55955FDC
 P 3650 5600
 F 0 "#PWR?" H 3650 5600 30  0001 C CNN

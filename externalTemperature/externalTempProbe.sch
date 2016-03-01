@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:externalTempProbe-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -81,7 +82,7 @@ F 3 "" H 5100 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-externalTempProbe #PWR?
 U 1 1 559476F7
 P 5100 3900
 F 0 "#PWR?" H 5100 3900 40  0001 C CNN
@@ -92,7 +93,7 @@ F 3 "" H 5100 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-externalTempProbe C?
 U 1 1 5594C942
 P 4700 3900
 F 0 "C?" H 4700 4000 40  0000 L CNN
@@ -105,7 +106,7 @@ $EndComp
 Connection ~ 5100 3700
 Connection ~ 4700 3700
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-externalTempProbe #PWR?
 U 1 1 55959F33
 P 4700 4100
 F 0 "#PWR?" H 4700 4100 40  0001 C CNN
@@ -153,7 +154,7 @@ F 3 "" H 7400 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-externalTempProbe #PWR?
 U 1 1 5594B819
 P 7100 3900
 F 0 "#PWR?" H 7100 3900 40  0001 C CNN
@@ -168,7 +169,7 @@ SDA
 Text Label 7350 4000 0    60   ~ 0
 SCL
 $Comp
-L C C?
+L C-RESCUE-externalTempProbe C?
 U 1 1 55961C1D
 P 4450 3900
 F 0 "C?" H 4450 4000 40  0000 L CNN
@@ -179,7 +180,7 @@ F 3 "" H 4450 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-externalTempProbe C?
 U 1 1 55961C58
 P 4200 3900
 F 0 "C?" H 4200 4000 40  0000 L CNN
@@ -191,7 +192,7 @@ F 3 "" H 4200 3900 60  0000 C CNN
 $EndComp
 Connection ~ 4450 3700
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-externalTempProbe #PWR?
 U 1 1 55961D3C
 P 4200 4100
 F 0 "#PWR?" H 4200 4100 40  0001 C CNN
@@ -202,7 +203,7 @@ F 3 "" H 4200 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-externalTempProbe #PWR?
 U 1 1 55961D55
 P 4450 4100
 F 0 "#PWR?" H 4450 4100 40  0001 C CNN
@@ -213,7 +214,7 @@ F 3 "" H 4450 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA-RESCUE-externalTempProbe #PWR?
 U 1 1 55961F67
 P 6150 3700
 F 0 "#PWR?" H 6150 3700 40  0001 C CNN
