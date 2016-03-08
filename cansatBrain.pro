@@ -1,4 +1,4 @@
-update=Mon 29 Feb 2016 06:26:14 PM CST
+update=Tue 08 Mar 2016 10:47:15 AM CST
 version=1
 last_client=kicad
 [general]
@@ -73,3 +73,4 @@ LibName39=ls20031
 LibName40=tmp102
 LibName41=tps63031
 LibName42=/home/h/projects/heli/cad/smartercopter-cache
+LibName43=dc-dc
