@@ -335,17 +335,6 @@ F 3 "" H 3100 1100 60  0000 C CNN
 	1    3100 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L VCC #PWR06
-U 1 1 5594DE9A
-P 1850 1000
-F 0 "#PWR06" H 1850 1100 30  0001 C CNN
-F 1 "VCC" H 1850 1100 30  0000 C CNN
-F 2 "" H 1850 1000 60  0000 C CNN
-F 3 "" H 1850 1000 60  0000 C CNN
-	1    1850 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 1200 2450 1200
 Wire Wire Line
@@ -627,6 +616,7 @@ F1 "power.sch" 60
 F2 "VUSB" I L 1300 2800 60 
 F3 "REG_EN" I L 1300 3000 60 
 F4 "BAT_SENSE" O R 2150 2900 60 
+F5 "VIN" O R 2150 3050 60 
 $EndSheet
 $Comp
 L C-RESCUE-cansatBrain C?
@@ -1211,4 +1201,12 @@ Text Label 2700 3950 0    60   ~ 0
 XTRA_TX
 NoConn ~ 2500 5350
 NoConn ~ 2500 5450
+Wire Wire Line
+	2150 3050 2700 3050
+Text Label 2600 3050 0    60   ~ 0
+VIN
+Wire Wire Line
+	1850 1000 1600 1000
+Text Label 1600 1000 0    60   ~ 0
+VIN
 $EndSCHEMATC
