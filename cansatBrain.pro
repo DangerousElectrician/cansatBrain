@@ -1,4 +1,4 @@
-update=Tue 08 Mar 2016 10:47:15 AM CST
+update=Wed 09 Mar 2016 01:53:32 PM CST
 version=1
 last_client=kicad
 [general]
@@ -74,3 +74,13 @@ LibName40=tmp102
 LibName41=tps63031
 LibName42=/home/h/projects/heli/cad/smartercopter-cache
 LibName43=dc-dc
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
